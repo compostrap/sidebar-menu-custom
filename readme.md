@@ -1,9 +1,9 @@
-## Sidebar menu
+## Sidebar menu 2
 Simple and fast multi-level sidebar menu 2 on Bootstrap 4
 
 ## Installation
 ```
-npm install --save sidebar-menu-compostrap
+npm install --save sidebar-menu-2-compostrap
 ```
 
 ## Built on
