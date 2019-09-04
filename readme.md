@@ -17,7 +17,7 @@ npm install --save sidebar-menu-2-compostrap
 
 ## Live preview
 
-- https://compostrap.github.io/sidebar.menu
+- https://compostrap.github.io/sidebar.menu.2
 
 ## Themes
 The Sidebar is basically a light and dark theme.
