@@ -1,0 +1,77 @@
+//
+// theme colors
+//
+
+$dark:          rgb(55,  61,   66);
+$white:         rgb(255, 255, 255);
+$light:         rgb(248, 249, 250);
+$magenta:       rgb(220,  53,  69);
+$cyan:          rgb(0,   123, 255);
+$purple:        rgb(111, 66,  193);
+$green:         rgb(40,  167,  69);
+$orange:        rgb(253, 126,  20);
+$theme-colors: (
+        'dark': (
+                'list-color':                   lighten($dark, 35),
+                'link-color':                   lighten($dark, 75),
+                'link-bg':                      lighten($dark, 3),
+                'link-bg-current':              lighten($dark, 5),
+                'hide-border-color':            lighten($dark, 4),
+                'hide-link-color':              lighten($dark, 40),
+                'hide-link-color-current':      lighten($dark, 75),
+                'hide-link-bg':                 lighten($dark, 13),
+                'hide-link-bg-current':         lighten($dark, 15),
+                'hide-link-arrow-current':      lighten($dark, 20),
+                'scrollbar-bg':                 lighten($dark, 18),
+                'sidebar-bg':                   $dark
+        ),
+        'white': (
+                'list-color':                   darken($white, 35),
+                'link-color':                   darken($white, 75),
+                'link-bg':                      darken($light, 2),
+                'link-bg-current':              darken($light, 4),
+                'hide-border-color':            darken($light, 4),
+                'hide-link-color':              darken($light, 60),
+                'hide-link-color-current':      darken($light, 70),
+                'hide-link-bg':                 darken($light, 10),
+                'hide-link-bg-current':         darken($light, 13),
+                'hide-link-arrow-current':      darken($light, 16),
+                'scrollbar-bg':                 darken($light, 18),
+                'sidebar-bg':                   $white
+        ),
+        'menu-magenta': (
+                'hide-link-a-color':            lighten($magenta, 40),
+                'hide-link-color-current':      lighten($magenta, 60),
+                'hide-link-bg':                 lighten($magenta, 5),
+                'hide-link-bg-current':         lighten($magenta, 8),
+                'hide-link-arrow-current':      lighten($magenta, 16),
+        ),
+        'menu-cyan': (
+                'hide-link-a-color':              lighten($cyan, 40),
+                'hide-link-color-current':      lighten($cyan, 60),
+                'hide-link-bg':                 lighten($cyan, 5),
+                'hide-link-bg-current':         lighten($cyan, 8),
+                'hide-link-arrow-current':      lighten($cyan, 16),
+        ),
+        'menu-purple': (
+                'hide-link-a-color':              lighten($purple, 40),
+                'hide-link-color-current':      lighten($purple, 60),
+                'hide-link-bg':                 lighten($purple, 5),
+                'hide-link-bg-current':         lighten($purple, 8),
+                'hide-link-arrow-current':      lighten($purple, 16),
+        ),
+        'menu-green': (
+                'hide-link-a-color':              lighten($green, 40),
+                'hide-link-color-current':      lighten($green, 60),
+                'hide-link-bg':                 lighten($green, 5),
+                'hide-link-bg-current':         lighten($green, 8),
+                'hide-link-arrow-current':      lighten($green, 16),
+        ),
+        'menu-orange': (
+                'hide-link-a-color':              lighten($orange, 40),
+                'hide-link-color-current':      lighten($orange, 60),
+                'hide-link-bg':                 lighten($orange, 5),
+                'hide-link-bg-current':         lighten($orange, 8),
+                'hide-link-arrow-current':      lighten($orange, 16),
+        ),
+);
