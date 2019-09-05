@@ -168,12 +168,12 @@ body {
 }
 
 .sidebar-dark .list-link:hover {
-  background-color: #3c4248;
+  background-color: #3e454a;
 }
 
 .sidebar-dark .link-current,
 .sidebar-dark .link-current:hover {
-  background-color: #40474d;
+  background-color: #434a50;
 }
 
 .sidebar-dark .list-link.link-current .fas {
@@ -185,18 +185,18 @@ body {
 }
 
 .sidebar-dark .list-hidden .list-link {
-  color: #c4c9ce;
+  color: #d2d6d9;
 }
 
 .sidebar-dark .list-hidden .link-current,
 .sidebar-dark .list-hidden .link-current:hover {
-  background-color: #4a5258;
-  color: #d2d6d9;
+  background-color: #4c545b;
+  color: #fbfcfc;
 }
 
 .sidebar-dark .list-hidden .link-arrow.link-current,
 .sidebar-dark .list-hidden .link-arrow.link-current:hover {
-  background-color: #535c63;
+  background-color: #5a646c;
 }
 
 .sidebar-dark .link-arrow:before,
