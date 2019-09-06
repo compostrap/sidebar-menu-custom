@@ -25,10 +25,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/compostrap/sidebar-menu.git"
+    "url": "git+https://github.com/compostrap/sidebar-menu-2.git"
   },
   "bugs": {
-    "url": "https://github.com/compostrap/sidebar-menu/issues"
+    "url": "https://github.com/compostrap/sidebar-menu-2/issues"
   },
-  "homepage": "https://github.com/compostrap/sidebar-menu#readme"
+  "homepage": "https://github.com/compostrap/sidebar-menu-2#readme"
 }
