@@ -1,20 +1,18 @@
 {
   "name": "sidebar-menu-2-compostrap",
-  "version": "1.0.0",
-  "description": "Simple and fast multi-level sidebar menu 2 on Bootstrap 4",
+  "version": "1.0.1",
+  "description": "Simple and fast multi-level sidebar menu on Bootstrap 4",
   "main": "Gruntfile.js",
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
+    "@fortawesome/fontawesome-free": "^5.10.2",
     "nanobar": "^0.4.2",
     "open-sans-fontface": "^1.4.0",
     "perfect-scrollbar": "^1.4.0",
-    "popper.js": "^1.14.7"
+    "sidebar-skeleton-compostrap": "^1.0.9"
   },
   "devDependencies": {
     "grunt": "^1.0.4",
-    "grunt-contrib-sass": "^1.0.0",
-    "@fortawesome/fontawesome-free": "^5.10.2"
+    "grunt-contrib-sass": "^1.0.0"
   },
   "author": "Zdeněk Papučík <zdenek.papucik@gmail.com>",
   "license": "MIT",
