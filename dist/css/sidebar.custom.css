@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/*!
+ * Sidebar menu
+ * Copyright Zdeněk Papučík
+ * MIT License
+*/
+.list-hidden {
+  display: none;
+  overflow: hidden;
+  padding-left: 0rem;
+  margin: 0.3125rem 0 0rem 1.4375rem;
+  background: none !important;
+  border-left: 0.125rem solid transparent;
+}
+
+.sidebar-menu .list-hidden {
+  border-left-color: #4b545c;
+}
+
+/*# sourceMappingURL=sidebar.custom.css.map */

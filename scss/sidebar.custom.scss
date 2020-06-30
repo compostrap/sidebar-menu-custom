@@ -15,12 +15,10 @@
 @import '../node_modules/sidebar-skeleton-compostrap/scss/utils/_variables';
 
 // sidebar menu
-@import 'utils/_variables';
-@import 'base/_body';
+@import '../node_modules/sidebar-menu-compostrap/scss/utils/_variables';
 
+// sidebar menu
 @import 'components/_list';
-@import 'components/_scrollbar';
-@import 'components/_nanobar';
 
 @import 'themes/_colors';
 @import 'themes/_theme';

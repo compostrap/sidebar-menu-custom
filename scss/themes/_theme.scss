@@ -4,77 +4,8 @@
 
 @each $theme, $map in $theme-colors {
 
-  // list
-  .list-#{$theme} {
-    color: map-get($map, list-color);
-  }
-
-  // item list hyperlink
-  .list-#{$theme} .list-link {
-    color: map-get($map, link-color);
-  }
-
-  .list-#{$theme} .list-link:hover {
-    background-color: map-get($map, link-bg);
-  }
-
-  // item list hyperlink current
-  .list-#{$theme} .link-current,
-  .list-#{$theme} .link-current:hover {
-    background-color: map-get($map, link-bg-current);
-  }
-
-  .list-#{$theme} .list-link.link-current .fas {
-    opacity: 1.0;
-  }
-
   // hidden list
   .sidebar-#{$theme} .list-hidden {
-    border-left-color: map-get($map, hide-border-color);
-  }
-
-  .list-#{$theme} .list-hidden .list-link {
-    color: map-get($map, hide-link-color);
-  }
-
-  .list-#{$theme} .list-hidden .list-link:hover {
-    background-color: map-get($map, hide-link-bg);
-    color: map-get($map, hide-link-color-current);
-  }
-
-  .list-#{$theme} .list-hidden .link-current,
-  .list-#{$theme} .list-hidden .link-current:hover {
-    background-color: map-get($map, hide-link-bg-current);
-    color: map-get($map, hide-link-color-current);
-  }
-
-  .list-#{$theme} .list-hidden .link-arrow.link-current,
-  .list-#{$theme} .list-hidden .link-arrow.link-current:hover {
-    background-color: map-get($map, hide-link-arrow-current);
-  }
-
-  // icons
-  .list-#{$theme} .link-arrow:before,
-  .list-#{$theme} .list-link .fas {
-    opacity: 0.3;
-  }
-
-  .list-#{$theme} .link-arrow.active:before,
-  .list-#{$theme} .list-link:hover .fas {
-    opacity: 1.0;
-  }
-
-  // scrollbar
-  .scrollbar-#{$theme} .ps__rail-y.ps--clicking .ps__thumb-y,
-  .scrollbar-#{$theme} .ps__rail-y:focus .ps__thumb-y,
-  .scrollbar-#{$theme} .ps__rail-y:hover .ps__thumb-y,
-  .scrollbar-#{$theme} .ps__thumb-y {
-    background-color: map-get($map, scrollbar-bg);
-  }
-
-  .ps .ps__rail-y.ps--clicking,
-  .ps .ps__rail-y:focus,
-  .ps .ps__rail-y:hover {
-    background: none;
+    border-left-color: map-get($map, border-color);
   }
 }
