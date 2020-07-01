@@ -5,7 +5,7 @@
 <h3 align="center">Compostrap</h3>
 <p align="center">Simple and fast components build on Bootstrap 4</p>
 
-## Sidebar menu 2
+## Sidebar menu custom
 Simple and fast multi-level sidebar menu.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://raw.githubusercontent.com/compostrap/sidebar-menu-2/master/license.md)
