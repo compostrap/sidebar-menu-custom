@@ -19,12 +19,7 @@ npm install --save sidebar-menu-2-compostrap
 ```
 
 ## Built on
-- [Bootstrap 4](https://getbootstrap.com)
-- [jQuery](https://jquery.com)
-- [Font Awesome 5](https://fontawesome.com)
-- [Perfect scrollbar](https://github.com/mdbootstrap/perfect-scrollbar)
-- [Open Sans @font-face kit](https://github.com/FontFaceKit/open-sans)
-- [Nanobar](https://github.com/jacoborus/nanobar)
+- [Compostrap Sidebar menu](https://github.com/compostrap/sidebar-menu)
 
 ## Demo
 - https://compostrap.github.io/sidebar.menu.2
