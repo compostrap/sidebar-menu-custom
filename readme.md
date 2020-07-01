@@ -19,7 +19,7 @@ npm install --save sidebar-menu-2-compostrap
 ```
 
 ## Built on
-- [Compostrap Sidebar menu](https://github.com/compostrap/sidebar-menu-custom)
+- [Compostrap Sidebar menu](https://github.com/compostrap/sidebar-menu)
 
 ## Demo
-- https://compostrap.github.io/sidebar.menu.2
+- https://compostrap.github.io/sidebar.menu.custom
