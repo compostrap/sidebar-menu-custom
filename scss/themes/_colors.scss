@@ -2,7 +2,31 @@
 // theme colors
 //
 $theme-colors: (
-        'menu': (
-                'border-color': lighten($gray-800, 10),
+        'bg-white': (
+                'border-color': darken($white, 6),
+        ),
+        'bg-light': (
+                'border-color': darken($gray-100, 6),
+        ),
+        'bg-dark': (
+                'border-color': lighten($gray-800, 6),
+        ),
+        'bg-blue': (
+                'border-color': darken($blue, 6),
+        ),
+        'bg-purple': (
+                'border-color': darken($purple, 6),
+        ),
+        'bg-pink': (
+                'border-color': darken($pink, 6),
+        ),
+        'bg-red': (
+                'border-color': darken($red, 6),
+        ),
+        'bg-orange': (
+                'border-color': darken($orange, 6),
+        ),
+        'bg-green': (
+                'border-color': darken($green, 6),
         ),
 );
