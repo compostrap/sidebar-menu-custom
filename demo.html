@@ -6,10 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" href="node_modules/sidebar-skeleton-compostrap/dist/css/sidebar.css">
-	<link rel="stylesheet" href="node_modules/sidebar-menu-compostrap/dist/css/sidebar.menu.css">
 	<link rel="stylesheet" href="node_modules/open-sans-fontface/open-sans.css">
 	<link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
 	<link rel="stylesheet" href="node_modules/perfect-scrollbar/css/perfect-scrollbar.css">
+	<link rel="stylesheet" href="node_modules/sidebar-menu-compostrap/dist/css/sidebar.menu.css">
 	<link rel="stylesheet" href="dist/css/sidebar.custom.css">
 	<title>Sidebar</title>
 </head>
@@ -32,7 +32,7 @@
 </header>
 
 <div class="d-flex wrapper wrapper-navbar-used wrapper-navbar-fixed">
-	<nav role="navigation" class="sidebar sidebar-bg-dark sidebar-rounded-top-right shadow-box" id="navigation">
+	<nav role="navigation" class="sidebar sidebar-bg-dark sidebar-rounded-top-right shadow" id="navigation">
 
 		<!-- sidebar -->
 		<div class="sidebar-menu">
@@ -41,7 +41,7 @@
 			<div class="sidebar-menu-fixed">
 
 				<!-- menu scrollbar -->
-				<div class="scrollbar scrollbar-bg-dark">
+				<div class="scrollbar scrollbar-use-navbar scrollbar-bg-dark">
 
 					<!-- menu -->
 					<ul class="list list-unstyled list-bg-dark mb-0">
@@ -186,13 +186,15 @@
 <script src="node_modules/jquery/dist/jquery.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 <script src="node_modules/sidebar-skeleton-compostrap/dist/js/sidebar.js"></script>
-<script src="node_modules/sidebar-menu-compostrap/dist/js/sidebar.menu.js"></script>
 <script src="node_modules/perfect-scrollbar/dist/perfect-scrollbar.js"></script>
 <script src="node_modules/nanobar/nanobar.js"></script>
+<script src="node_modules/sidebar-menu-compostrap/dist/js/sidebar.menu.js"></script>
 <script>
 	$(function() {
 		new Nanobar().go(100);
-		new PerfectScrollbar('.scrollbar');
+		new PerfectScrollbar('.scrollbar', {
+			wheelSpeed: 0.3
+		});
 	});
 </script>
 

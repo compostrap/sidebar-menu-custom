@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": ";AACA;;;;EAIE;ACAA,YAAS;EACP,OAAO,EAAE,IAAI;EACb,QAAQ,EAAE,MAAM;EAChB,YAAY,ECJN,IAAwB;EDK9B,MAAM,EAAE,0BAAuB;EAC/B,UAAU,EAAE,eAAe;EAC3B,WAAW,EAAE,0BAAwB;;;AEJvC,8BAAgC;EAC9B,iBAAiB,EAAE,OAA2B;;;AADhD,8BAAgC;EAC9B,iBAAiB,EAAE,OAA2B;;;AADhD,6BAAgC;EAC9B,iBAAiB,EAAE,OAA2B;;;AADhD,6BAAgC;EAC9B,iBAAiB,EAAE,OAA2B;;;AADhD,+BAAgC;EAC9B,iBAAiB,EAAE,OAA2B;;;AADhD,6BAAgC;EAC9B,iBAAiB,EAAE,OAA2B;;;AADhD,4BAAgC;EAC9B,iBAAiB,EAAE,OAA2B;;;AADhD,+BAAgC;EAC9B,iBAAiB,EAAE,OAA2B;;;AADhD,8BAAgC;EAC9B,iBAAiB,EAAE,OAA2B",
-"sources": ["../../scss/sidebar.custom.scss","../../scss/components/_list.scss","../../node_modules/sidebar-skeleton-compostrap/scss/utils/_functions.scss","../../scss/themes/_theme.scss"],
-"names": [],
-"file": "sidebar.custom.css"
-}
+{"version":3,"sourceRoot":"","sources":["../../scss/sidebar.custom.scss","../../scss/components/_list.scss","../../scss/themes/_theme.scss"],"names":[],"mappings":";AACA;AAAA;AAAA;AAAA;AAAA;ACIE;EACE;EACA;EACA;EACA;EACA;EACA;;;ACJF;EACE;;;AADF;EACE;;;AADF;EACE;;;AADF;EACE;;;AADF;EACE;;;AADF;EACE;;;AADF;EACE;;;AADF;EACE;;;AADF;EACE","file":"sidebar.custom.css"}
