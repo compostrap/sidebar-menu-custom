@@ -4,7 +4,7 @@
   "description": "Simple and fast multi-level sidebar menu on Bootstrap 4",
   "main": "Gruntfile.js",
   "dependencies": {
-    "sidebar-menu-compostrap": "^1.0.20"
+    "sidebar-menu-compostrap": "^1.0.21"
   },
   "devDependencies": {
     "grunt": "^1.3.0",
