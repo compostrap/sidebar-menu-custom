@@ -4,11 +4,9 @@
  * Copyright Zdeněk Papučík
  * MIT License
 */
-.list-hidden {
-  display: none;
-  overflow: hidden;
-  padding-left: 0rem;
-  margin: 0.3125rem 0 0rem 1.4375rem;
+.list .list-hidden {
+  padding-left: 0;
+  margin: 0.3125rem 0 0 1.4375rem;
   background: none !important;
   border-left: 0.125rem solid transparent;
 }
@@ -26,7 +24,7 @@
 }
 
 .sidebar-bg-blue .list-hidden {
-  border-left-color: #006ce0;
+  border-left-color: #0260e9;
 }
 
 .sidebar-bg-purple .list-hidden {
@@ -34,7 +32,7 @@
 }
 
 .sidebar-bg-pink .list-hidden {
-  border-left-color: #e5237c;
+  border-left-color: #c32775;
 }
 
 .sidebar-bg-red .list-hidden {
@@ -46,7 +44,7 @@
 }
 
 .sidebar-bg-green .list-hidden {
-  border-left-color: #228e3b;
+  border-left-color: #146d44;
 }
 
 /*# sourceMappingURL=sidebar.custom.css.map */

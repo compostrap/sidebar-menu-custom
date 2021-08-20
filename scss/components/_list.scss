@@ -3,11 +3,9 @@
 //
 
 .list {
-  &-hidden {
-    display: none;
-    overflow: hidden;
-    padding-left: rem(0);
-    margin: rem(5) 0 rem(0) rem(23);
+  & &-hidden {
+    padding-left: 0;
+    margin: rem(5) 0 0 rem(23);
     background: none !important;
     border-left: rem(2) solid transparent;
   }

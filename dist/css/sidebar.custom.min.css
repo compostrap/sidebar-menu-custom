@@ -1,0 +1,6 @@
+@charset "UTF-8";/*!
+ * Sidebar menu
+ * Copyright Zdeněk Papučík
+ * MIT License
+*/.list .list-hidden{padding-left:0;margin:.3125rem 0 0 1.4375rem;background:0 0!important;border-left:.125rem solid transparent}.sidebar-bg-white .list-hidden{border-left-color:#f0f0f0}.sidebar-bg-light .list-hidden{border-left-color:#e6eaed}.sidebar-bg-dark .list-hidden{border-left-color:#424951}.sidebar-bg-blue .list-hidden{border-left-color:#0260e9}.sidebar-bg-purple .list-hidden{border-left-color:#6138ac}.sidebar-bg-pink .list-hidden{border-left-color:#c32775}.sidebar-bg-red .list-hidden{border-left-color:#cf2434}.sidebar-bg-orange .list-hidden{border-left-color:#f06e02}.sidebar-bg-green .list-hidden{border-left-color:#146d44}
+/*# sourceMappingURL=sidebar.custom.min.css.map */
