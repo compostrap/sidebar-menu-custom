@@ -1,8 +1,7 @@
 {
   "name": "sidebar-menu-2-compostrap",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Simple and fast multi-level sidebar menu on Bootstrap",
-  "main": "",
   "dependencies": {
     "sidebar-menu-compostrap": "^2.0.1"
   },
@@ -26,6 +25,8 @@
     "menu",
     "bootstrap"
   ],
+  "style": "dist/css/sidebar.custom.css",
+  "sass": "scss/sidebar.custom.scss",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/compostrap/sidebar-menu-2.git"
