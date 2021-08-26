@@ -1,6 +1,6 @@
 {
   "name": "sidebar-menu-2-compostrap",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Simple and fast multi-level sidebar menu on Bootstrap",
   "dependencies": {
     "sidebar-menu-compostrap": "^2.0.4"
