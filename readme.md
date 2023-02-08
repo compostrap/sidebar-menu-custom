@@ -14,9 +14,9 @@ npm install --save sidebar-menu-2-compostrap
 Version 1x built on Bootstrap 4  
 Version 2x built on Bootstrap 5
 
-
 ## Built on
 - [Compostrap Sidebar menu](https://github.com/compostrap/sidebar-menu)
 
 ## Demo
-- https://compostrap.github.io/sidebar.menu.custom
+- [Dark](https://compostrap.github.io/sidebar.menu.custom.dark)
+- [White](https://compostrap.github.io/sidebar.menu.custom.white)
