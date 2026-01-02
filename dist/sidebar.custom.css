@@ -1,0 +1,42 @@
+.list .list-hidden {
+  padding-left: 0;
+  margin: 0.313rem 0 0 1.438rem;
+  background: none !important;
+  border-left: 0.125rem solid transparent;
+}
+
+.sidebar-bg-white .list-hidden {
+  border-left-color: rgb(239.7, 239.7, 239.7);
+}
+
+.sidebar-bg-light .list-hidden {
+  border-left-color: rgb(230.15, 233.7, 237.25);
+}
+
+.sidebar-bg-dark .list-hidden {
+  border-left-color: rgb(65.7172413793, 73.3, 80.8827586207);
+}
+
+.sidebar-bg-blue .list-hidden {
+  border-left-color: rgb(1.9295081967, 95.5106557377, 233.4704918033);
+}
+
+.sidebar-bg-purple .list-hidden {
+  border-left-color: rgb(97.3657370518, 56.4175298805, 171.9824701195);
+}
+
+.sidebar-bg-pink .list-hidden {
+  border-left-color: rgb(195.173877551, 39.226122449, 116.7216326531);
+}
+
+.sidebar-bg-red .list-hidden {
+  border-left-color: rgb(206.6025316456, 35.7974683544, 52.1620253165);
+}
+
+.sidebar-bg-orange .list-hidden {
+  border-left-color: rgb(240.3544303797, 110.4607594937, 2.0455696203);
+}
+
+.sidebar-bg-green .list-hidden {
+  border-left-color: rgb(20.21875, 109.18125, 67.935);
+}

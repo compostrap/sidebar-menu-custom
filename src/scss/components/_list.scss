@@ -5,8 +5,8 @@
 .list {
   & &-hidden {
     padding-left: 0;
-    margin: toRem(5) 0 0 toRem(23);
+    margin: .313rem 0 0 1.438rem;
     background: none !important;
-    border-left: toRem(2) solid transparent;
+    border-left: .125rem solid transparent;
   }
 }
