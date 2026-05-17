@@ -1,6 +1,6 @@
 {
   "name": "sidebar-menu-2-compostrap",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Custom sidebar menu editing.",
   "dependencies": {
     "nanobar": "^0.4.2",
@@ -13,8 +13,7 @@
     "menu",
     "bootstrap"
   ],
-  "style": "dist/sidebar-custom.css",
-  "sass": "src/scss/sidebar-custom.scss",
+  "sidebar-custom.css": "dist/sidebar-custom.css",
   "devDependencies": {
     "sass": "^1.97.1",
     "vite": "^7.3.0"
