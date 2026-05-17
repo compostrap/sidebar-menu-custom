@@ -3,6 +3,29 @@
 //
 
 .list {
+
+  // First-level links only.
+  & > .list-item > .list-unstyled > li > .list-link {
+    margin: .188rem .5rem;
+    border-radius: var(--sm-modern-border-radius);
+    transition: background-color .2s ease, color .2s ease;
+  }
+
+  & > .list-item > .list-unstyled > li > .list-link:hover,
+  & > .list-item > .list-unstyled > li > .list-link.link-current {
+    background-color: var(--sm-modern-link-bg);
+  }
+
+  & > .list-item > .list-unstyled > li > .list-link:hover .list-icon,
+  & > .list-item > .list-unstyled > li > .list-link.link-current .list-icon {
+    color: var(--sm-modern-icon-color);
+  }
+
+  // Alignment of the rotating arrow in the sub-menu.
+  & .list-hidden .link-arrow:before {
+    margin-right: .813rem;
+  }
+
   & &-hidden {
     padding-left: 0;
     margin: .313rem 0 0 1.438rem;

@@ -2,26 +2,26 @@
 // theme default
 //
 
-@use "sass:map";
 @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
 
-$theme-colors: (
-        'bg-white':  ('border-color': darken($white, 6)),
-        'bg-light':  ('border-color': darken($gray-100, 6)),
-        'bg-dark':   ('border-color': lighten($gray-800, 6)),
-        'bg-blue':   ('border-color': darken($blue, 6)),
-        'bg-purple': ('border-color': darken($purple, 6)),
-        'bg-pink':   ('border-color': darken($pink, 6)),
-        'bg-red':    ('border-color': darken($red, 6)),
-        'bg-orange': ('border-color': darken($orange, 6)),
-        'bg-green':  ('border-color': darken($green, 6)),
-);
+:root {
+  --sm-modern-border-radius: #{$border-radius-sm};
+}
 
-@each $theme, $map in $theme-colors {
+// Manual theme switch via data attribute.
+[data-sidebar-theme="light"] {
+  --sm-list-border-color: #{darken($white, 6)};
+  --sm-modern-link-bg: rgba(13, 110, 253, 0.06);
+  --sm-modern-icon-color: #0d6efd;
+}
 
-  // hidden list
-  .sidebar-#{$theme} .list-hidden {
-    border-left-color: map.get($map, border-color);
-  }
+[data-sidebar-theme="dark"] {
+  --sm-list-border-color: #{lighten($gray-800, 6)};
+  --sm-modern-link-bg: rgba(255, 255, 255, 0.05);
+  --sm-modern-icon-color: #5ea0ff;
+}
+
+.sidebar .list-hidden {
+  border-left-color: var(--sm-list-border-color);
 }

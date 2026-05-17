@@ -24,13 +24,13 @@ export default defineConfig({
 		outDir: 'dist',
 		emptyOutDir: true,
 		lib: {
-			entry: path.resolve(__dirname, 'src/scss/sidebar.custom.scss'),
+			entry: path.resolve(__dirname, 'src/scss/sidebar-custom.scss'),
 			formats: ['es'],
 		},
 		cssMinify: false,
 		rollupOptions: {
 			output: {
-				assetFileNames: 'sidebar.custom.[ext]'
+				assetFileNames: 'sidebar-custom.[ext]'
 			}
 		}
 	}
