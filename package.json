@@ -13,8 +13,8 @@
     "menu",
     "bootstrap"
   ],
-  "style": "dist/sidebar.custom.css",
-  "sass": "src/scss/sidebar.custom.scss",
+  "style": "dist/sidebar-custom.css",
+  "sass": "src/scss/sidebar-custom.scss",
   "devDependencies": {
     "sass": "^1.97.1",
     "vite": "^7.3.0"
