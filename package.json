@@ -1,6 +1,6 @@
 {
   "name": "sidebar-menu-2-compostrap",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Custom sidebar menu editing.",
   "dependencies": {
     "nanobar": "^0.4.2",
