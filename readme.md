@@ -25,5 +25,9 @@ Full support for **Light** and **Dark** themes out of the box.
 | Light | `data-sidebar-theme="light"` |
 | Dark  | `data-sidebar-theme="dark"`  |
 
+This package is only a visual extension of `sidebar-menu-compostrap`. It does not replace the base menu theme logic and does not switch Bootstrap's global `data-bs-theme`.
+
+The base sidebar menu still controls link and arrow colors. This custom package adds subtle first-level backgrounds, Bootstrap primary icon highlighting, border styling, and layout refinements.
+
 ## Demo
 - [Live demo](https://compostrap.github.io/sidebar-menu-custom)

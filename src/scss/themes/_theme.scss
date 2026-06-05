@@ -7,19 +7,18 @@
 
 :root {
   --sm-modern-border-radius: #{$border-radius-sm};
+  --sm-modern-icon-color: var(--bs-primary);
 }
 
 // Manual theme switch via data attribute.
 [data-sidebar-theme="light"] {
   --sm-list-border-color: #{darken($white, 6)};
   --sm-modern-link-bg: rgba(13, 110, 253, 0.06);
-  --sm-modern-icon-color: #0d6efd;
 }
 
 [data-sidebar-theme="dark"] {
   --sm-list-border-color: #{lighten($gray-800, 6)};
   --sm-modern-link-bg: rgba(255, 255, 255, 0.05);
-  --sm-modern-icon-color: #5ea0ff;
 }
 
 .sidebar .list-hidden {
