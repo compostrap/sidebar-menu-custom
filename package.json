@@ -13,7 +13,10 @@
     "menu",
     "bootstrap"
   ],
-  "sidebar-custom.css": "dist/sidebar-custom.css",
+  "exports": {
+    "./sidebar-custom.css": "./dist/sidebar-custom.css",
+    "./src/scss/*": "./src/scss/*"
+  },
   "devDependencies": {
     "sass": "^1.97.1",
     "vite": "^7.3.0"

@@ -10,6 +10,14 @@ An enhanced, modern visual extension for the sidebar menu with advanced styling 
 npm install sidebar-menu-2-compostrap
 ```
 
+## Usage
+Load the base sidebar menu styles first, then the custom extension styles:
+
+```javascript
+import 'sidebar-menu-compostrap/sidebar-menu.css';
+import 'sidebar-menu-2-compostrap/sidebar-custom.css';
+```
+
 ## Key Features
 Compared to the standard menu, this custom version provides:
 - **Modern Visuals:** Subtle background tints for first-level links and smooth transitions.
