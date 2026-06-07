@@ -6,21 +6,21 @@
 @import "bootstrap/scss/variables";
 
 :root {
-  --sm-modern-border-radius: #{$border-radius-sm};
-  --sm-modern-icon-color: var(--bs-primary);
+	--sm-modern-border-radius: #{$border-radius-sm};
+	--sm-modern-icon-color: var(--bs-primary);
 }
 
 // Manual theme switch via data attribute.
 [data-sidebar-theme="light"] {
-  --sm-list-border-color: #{darken($white, 6)};
-  --sm-modern-link-bg: rgba(13, 110, 253, 0.06);
+	--sm-list-border-color: #{darken($white, 6)};
+	--sm-modern-link-bg: rgba(13, 110, 253, 0.06);
 }
 
 [data-sidebar-theme="dark"] {
-  --sm-list-border-color: #{lighten($gray-800, 6)};
-  --sm-modern-link-bg: rgba(255, 255, 255, 0.05);
+	--sm-list-border-color: #{lighten($gray-800, 6)};
+	--sm-modern-link-bg: rgba(255, 255, 255, 0.05);
 }
 
 .sidebar .list-hidden {
-  border-left-color: var(--sm-list-border-color);
+	border-left-color: var(--sm-list-border-color);
 }
