@@ -1,36 +1,39 @@
-import { defineConfig } from 'vite';
-import path from 'path';
+import { defineConfig } from "vite";
+import path from "path";
 
 export default defineConfig({
-	base: '',
-	server: {
-		fs: {
-			allow: ['.', 'dist']
-		}
-	},
+	base: "",
 	css: {
 		preprocessorOptions: {
 			scss: {
+				quietDeps: true,
 				silenceDeprecations: [
-					'import',
-					'if-function',
-					'global-builtin',
-					'color-functions'
+					"import",
+					"if-function",
+					"global-builtin",
+					"color-functions"
 				]
 			}
 		}
 	},
 	build: {
-		outDir: 'dist',
+		outDir: "dist",
 		emptyOutDir: true,
+		cssCodeSplit: false,
 		lib: {
-			entry: path.resolve(__dirname, 'src/scss/sidebar-custom.scss'),
-			formats: ['es'],
+			entry: {
+				index: path.resolve(__dirname, "src/index.js")
+			},
+			formats: ["es"]
 		},
 		cssMinify: false,
 		rollupOptions: {
+			external: ["bootstrap"],
 			output: {
-				assetFileNames: 'sidebar-custom.[ext]'
+				entryFileNames: "[name].js",
+				assetFileNames: (assetInfo) => {
+					return assetInfo.name?.endsWith(".css") ? "sidebar-custom.css" : "assets/[name].[ext]";
+				}
 			}
 		}
 	}

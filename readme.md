@@ -25,15 +25,14 @@ Compared to the standard menu, this custom version provides:
 - **Theme Optimized:** Specifically tuned background opacities for both light and dark modes.
 - **CSS Variables:** Unified styling through global variables (e.g., `--sm-modern-border-radius`).
 
-## Sidebar themes
-Full support for **Light** and **Dark** themes out of the box.
+## Themes
+Full support for Bootstrap **Light** and **Dark** themes out of the box.
 
-| Theme | Attribute                    |
-|-------|------------------------------|
-| Light | `data-sidebar-theme="light"` |
-| Dark  | `data-sidebar-theme="dark"`  |
+```html
+<html lang="en" data-bs-theme="light">
+```
 
-This package is only a visual extension of `sidebar-menu-compostrap`. It does not replace the base menu theme logic and does not switch Bootstrap's global `data-bs-theme`.
+This package is only a visual extension of `sidebar-menu-compostrap`. It does not replace the base menu theme logic.
 
 The base sidebar menu still controls link and arrow colors. This custom package adds subtle first-level backgrounds, Bootstrap primary icon highlighting, border styling, and layout refinements.
 
