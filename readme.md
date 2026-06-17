@@ -18,6 +18,18 @@ import 'sidebar-menu-compostrap/sidebar-menu.css';
 import 'sidebar-menu-2-compostrap/sidebar-custom.css';
 ```
 
+The demo uses `theme-switcher-compostrap` with Font Awesome icons:
+
+```javascript
+import 'theme-switcher-compostrap/theme-switcher.css';
+import ThemeSwitcher from 'theme-switcher-compostrap';
+
+new ThemeSwitcher({
+	lightIcon: 'fa-solid fa-sun',
+	darkIcon: 'fa-solid fa-moon',
+}).initialize();
+```
+
 ## Key Features
 Compared to the standard menu, this custom version provides:
 - **Modern Visuals:** Subtle background tints for first-level links and smooth transitions.
@@ -35,6 +47,7 @@ Full support for Bootstrap **Light** and **Dark** themes out of the box.
 This package is only a visual extension of `sidebar-menu-compostrap`. It does not replace the base menu theme logic.
 
 The base sidebar menu still controls link and arrow colors. This custom package adds subtle first-level backgrounds, Bootstrap primary icon highlighting, border styling, and layout refinements.
+Use `theme-switcher-compostrap` when you want to switch the global Bootstrap theme from the UI.
 
 ## Demo
 - [Live demo](https://compostrap.github.io/sidebar-menu-custom)
