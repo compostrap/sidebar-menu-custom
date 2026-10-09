@@ -2,8 +2,8 @@
 // theme default
 //
 
-@import "bootstrap/scss/functions";
-@import "bootstrap/scss/variables";
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
 
 :root {
 	--sm-modern-border-radius: #{$border-radius-sm};
@@ -11,12 +11,12 @@
 }
 
 :root,
-[data-bs-theme="light"] {
+[data-bs-theme='light'] {
 	--sm-list-border-color: #{darken($white, 6)};
 	--sm-modern-link-bg: rgba(13, 110, 253, 0.06);
 }
 
-[data-bs-theme="dark"] {
+[data-bs-theme='dark'] {
 	--sm-list-border-color: #{lighten($gray-800, 6)};
 	--sm-modern-link-bg: rgba(255, 255, 255, 0.05);
 }

@@ -1,4 +1,5 @@
 ## Sidebar menu custom
+
 An enhanced, modern visual extension for the sidebar menu with advanced styling capabilities.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/compostrap/sidebar-menu-custom/blob/master/license)
@@ -6,11 +7,13 @@ An enhanced, modern visual extension for the sidebar menu with advanced styling 
 [![Build status](https://github.com/compostrap/sidebar-menu-custom/actions/workflows/build.yml/badge.svg)](https://github.com/compostrap/sidebar-menu-custom/actions/workflows/build.yml)
 
 ## Installation
+
 ```bash
 npm install sidebar-menu-2-compostrap
 ```
 
 ## Usage
+
 Load the base sidebar menu styles first, then the custom extension styles:
 
 ```javascript
@@ -31,13 +34,16 @@ new ThemeSwitcher({
 ```
 
 ## Key Features
+
 Compared to the standard menu, this custom version provides:
+
 - **Modern Visuals:** Subtle background tints for first-level links and smooth transitions.
 - **Improved Layout:** Precise pixel-perfect alignment for rotating arrows in submenus.
 - **Theme Optimized:** Specifically tuned background opacities for both light and dark modes.
 - **CSS Variables:** Unified styling through global variables (e.g., `--sm-modern-border-radius`).
 
 ## Themes
+
 Full support for Bootstrap **Light** and **Dark** themes out of the box.
 
 ```html
@@ -50,4 +56,5 @@ The base sidebar menu still controls link and arrow colors. This custom package 
 Use `theme-switcher-compostrap` when you want to switch the global Bootstrap theme from the UI.
 
 ## Demo
+
 - [Live demo](https://compostrap.github.io/sidebar-menu-custom)
