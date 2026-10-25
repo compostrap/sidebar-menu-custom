@@ -26,12 +26,12 @@
 
 :root,
 [data-bs-theme=light] {
-  --sm-list-border-color: rgb(239.7, 239.7, 239.7);
+  --sm-list-border-color: rgb(94%, 94%, 94%);
   --sm-modern-link-bg: rgba(13, 110, 253, 0.06);
 }
 
 [data-bs-theme=dark] {
-  --sm-list-border-color: rgb(65.7172413793, 73.3, 80.8827586207);
+  --sm-list-border-color: rgb(25.7714672076%, 28.7450980392%, 31.7187288709%);
   --sm-modern-link-bg: rgba(255, 255, 255, 0.05);
 }
 

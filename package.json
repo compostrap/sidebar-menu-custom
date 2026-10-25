@@ -1,6 +1,6 @@
 {
 	"name": "sidebar-menu-2-compostrap",
-	"version": "3.0.3",
+	"version": "3.0.4",
 	"description": "Custom sidebar menu editing.",
 	"type": "module",
 	"license": "MIT",
@@ -18,7 +18,7 @@
 		"nanobar": "^0.4.2",
 		"perfect-scrollbar": "^1.5.6",
 		"sidebar-menu-compostrap": "^3.0.0",
-		"theme-switcher-compostrap": "^1.0.2"
+		"theme-switcher-compostrap": "^2.0.0"
 	},
 	"devDependencies": {
 		"sass": "^1.97.1",
