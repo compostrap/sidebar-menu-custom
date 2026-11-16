@@ -2,25 +2,16 @@
 // theme default
 //
 
-@import 'bootstrap/scss/functions';
-@import 'bootstrap/scss/variables';
-
+// the pill has the color of the page background (of the dashboard when it is used, else the tertiary background
+// of Bootstrap), the icons are muted like in the base menu
 :root {
-	--sm-modern-border-radius: #{$border-radius-sm};
-	--sm-modern-icon-color: var(--bs-primary);
-}
-
-:root,
-[data-bs-theme='light'] {
-	--sm-list-border-color: #{darken($white, 6)};
-	--sm-modern-link-bg: rgba(13, 110, 253, 0.06);
+	--sm-pill-border-radius: var(--bs-border-radius);
+	--sm-pill-icon-color: var(--sm-icon-color);
+	--sm-pill-link-bg: var(--ds-body-bg, var(--bs-tertiary-bg));
+	// the hovered pill: the same color drawn a bit towards the surface of the sidebar, in both themes
+	--sm-pill-hover-bg: color-mix(in srgb, var(--sm-pill-link-bg) 85%, var(--bs-body-bg));
 }
 
 [data-bs-theme='dark'] {
-	--sm-list-border-color: #{lighten($gray-800, 6)};
-	--sm-modern-link-bg: rgba(255, 255, 255, 0.05);
-}
-
-.sidebar .list-hidden {
-	border-left-color: var(--sm-list-border-color);
+	--sm-pill-hover-bg: color-mix(in srgb, var(--sm-pill-link-bg) 70%, var(--bs-body-bg));
 }

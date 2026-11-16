@@ -1,36 +1,70 @@
 //
-// list component for sidebar menu
+// links as pills: inset from the sidebar edges, the current page on any level in a pill of the page background color
 //
 
+@use 'sidebar-menu-compostrap/src/scss/utils/variables' as var;
+
+// links are pills inset from the sidebar edges with a small gap between them (pills of 36px on the first level and
+// 32px in submenus, rows of 42px and 38px); their text stays where the base menu has it
+$inset: .5rem;
+$gap: .375rem; // the gap above each link
+$pill-padding-y: .5rem;
+$subpill-padding-y: .375rem;
+$text-start: var.$sm-link-padding-x + var.$sm-icon-width + var.$sm-icon-gap;
+
 .list {
-
-	// First-level links only.
-	& > .list-item > .list-unstyled > li > .list-link {
-	margin: .188rem .5rem;
-	border-radius: var(--sm-modern-border-radius);
-	transition: background-color .08s ease;
+	// the gap is only above a link, so no margins collapse: a closing submenu (height 0, still shown) would keep two
+	// margins until it is hidden and then jump by one of them at the end of its animation
+	.list-link {
+		margin: $gap $inset 0;
+		padding: $pill-padding-y (var.$sm-link-padding-x - $inset);
+		border-radius: var(--sm-pill-border-radius);
 	}
 
-	& > .list-item > .list-unstyled > li > .list-link:hover,
-	& > .list-item > .list-unstyled > li > .list-link.link-current {
-	background-color: var(--sm-modern-link-bg);
+	.list-hidden .list-link {
+		padding-top: $subpill-padding-y;
+		padding-bottom: $subpill-padding-y;
+		padding-left: $text-start - $inset;
 	}
 
-	& > .list-item > .list-unstyled > li > .list-link .list-icon,
-	& > .list-item > .list-unstyled > li > .list-link:hover .list-icon,
-	& > .list-item > .list-unstyled > li > .list-link.link-current .list-icon {
-	color: var(--sm-modern-icon-color);
+	// the gap between a link and its submenu is the padding of the submenu, which the menu script slides to 0 together
+	// with the height
+	.list-hidden {
+		padding-top: $gap;
 	}
 
-	// Alignment of the rotating arrow in the sub-menu.
-	& .list-hidden .link-arrow:before {
-	margin-right: .813rem;
+	.list-hidden > li:first-child > .list-link {
+		margin-top: 0;
 	}
 
-	& &-hidden {
-	padding-left: 0;
-	margin: .313rem 0 0 2.188rem;
-	background: none !important;
-	border-left: .125rem solid transparent;
+	// the first link of a section keeps only a small gap under the section title
+	.list-title + .list-unstyled > li:first-child > .list-link {
+		margin-top: .25rem;
+	}
+
+	.list-hidden .list-hidden .list-link {
+		padding-left: $text-start + var.$sm-sub-indent - $inset;
+	}
+
+	// the pill marks the current page on any level; a group holding it is not filled, so the menu never shows
+	// two selections; a hovered link gets a slightly weaker pill
+	.list-link:hover {
+		background-color: var(--sm-pill-hover-bg);
+	}
+
+	.list-link.link-current:not(.link-arrow) {
+		background-color: var(--sm-pill-link-bg);
+	}
+
+	.list-link .list-icon {
+		color: var(--sm-pill-icon-color);
+	}
+
+	.list-link:hover .list-icon {
+		color: var(--sm-icon-hover);
+	}
+
+	.list-link.link-current .list-icon {
+		color: var(--sm-icon-current);
 	}
 }
