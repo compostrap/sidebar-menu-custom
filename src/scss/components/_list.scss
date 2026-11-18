@@ -33,6 +33,11 @@ $text-start: var.$sm-link-padding-x + var.$sm-icon-width + var.$sm-icon-gap;
 		padding-top: $gap;
 	}
 
+	// the pills mark the submenu enough, so the line on the left of an open submenu of the base menu is not drawn
+	.list-hidden::before {
+		content: none;
+	}
+
 	.list-hidden > li:first-child > .list-link {
 		margin-top: 0;
 	}

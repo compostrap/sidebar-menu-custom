@@ -11,6 +11,9 @@
 .list .list-hidden {
   padding-top: 0.375rem;
 }
+.list .list-hidden::before {
+  content: none;
+}
 .list .list-hidden > li:first-child > .list-link {
   margin-top: 0;
 }
